@@ -1,74 +1,33 @@
-# React + TypeScript + Vite
+# Daoud Umer — Full-Stack Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional portfolio website for **Daoud Umer**, a Full-Stack Developer and AI Automation Expert. This project showcases a premium, modern design built to highlight complex technical expertise and high-end digital products.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio is designed to be a high-performance, visually stunning platform that demonstrates capabilities in:
+- **AI & Automation**: Building intelligent workflows with n8n, OpenAI, and LangChain.
+- **Full-Stack Development**: Crafting scalable SaaS platforms using React, Next.js, Django, and Laravel.
+- **Mobile Development**: Creating seamless cross-platform experiences with Flutter.
+- **Modern UI/UX**: Implementing high-end aesthetics with glassmorphism, dynamic animations, and responsive layouts.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React, TypeScript, Vite, Framer Motion, Vanilla CSS.
+- **Styling**: Modern dark mode with a Cyberpunk-inspired palette (Cyan, Purple, Magenta).
+- **Animations**: Parallax Tilt, Type Animations, and Reveal effects.
+- **Icons**: FontAwesome & Custom SVG assets (including a professional gradient-based favicon).
 
-## Expanding the ESLint configuration
+## 💎 Design Philosophy
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The project follows a "Premium & Performant" philosophy:
+- **Glassmorphism**: Subtle blurs and translucent layers for a modern depth feel.
+- **Dynamic Interactions**: Hover effects, micro-animations, and smooth scrolling to enhance user engagement.
+- **Clean Code**: Modular component architecture for maintainability and scalability.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 👤 About the Author
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Daoud Umer** is a Full-Stack Web Developer specializing in building fast, reliable, and AI-powered products. Based in Bahawalpur, Pakistan, he works with clients globally on remote and on-site projects.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# my-portfolio
+*This portfolio was built with a focus on delivering excellence in both code and design.*
