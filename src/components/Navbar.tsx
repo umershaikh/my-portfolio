@@ -82,7 +82,7 @@ export function Navbar() {
         <div className="navbar__inner">
           <a href="#hero" className="navbar__brand" onClick={(e) => { e.preventDefault(); handleNavClick('hero') }}>
             <div className="navbar__logo">
-              <span className="navbar__logo-text">DU</span>
+              <img src="/favicon.svg" alt="Logo" className="navbar__logo-text" />
               <div className="navbar__logo-glow" />
             </div>
             <div className="navbar__brand-info">
